@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.multimediamaster" name="[I][COLOR=blue]Multimedia[/COLOR] [COLOR=darkorange]Master[/COLOR][/I]" version="1.0.1" provider-name="TechManiacHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Multimedia Master</summary>
+    <description lang="en">"Multimedia Master" i "Multimedia Master Edycja Specjalna" podlegają prawom własności intelektualnej należącym do [COLOR=orange]TechManiacHD[/COLOR]. Na jednego subskrybenta kanału [COLOR=orange]TechManiacHD[/COLOR] na [COLOR=red]YouTube[/COLOR] zezwala się na trzy instalacje podstawowej edycji Multimedia Master. Zabrania się sprzedażny i rozpowszechniania bez porozumienia i wiedzy autora.</description>
+	<disclaimer lang="en">Kodi jest programem darmowym. Wtyczki, które są zawarte w projekcie Multimedia Master (MM i MMES) są również darmowe i powszechnie dostępne w internecie dla każdego.
+Multimedia Master nie dostarcza bezpośrednio telewizji, filmów, seriali, muzyki ani żadnych treści audio/wideo. Jest jedynie zbiorem wtyczek. Projekt ten ma jedynie ułatwić użytkownikowi wielogodzinne ustawianie programu Kodi, instalacje wtyczek czy odciążyć w żmudnych poszukiwaniach nowych interesujących dodatków. Jeżeli dana wtyczka nie działa zgodnie z założeniem należny kontaktować się z jej autorem. Jeżeli stan taki się utrzymuje dłużnej może zostać taka wtyczka usunięta oraz będzie szukana alternatywa.
+Na kanale TechManiacHD na YouTube znajdują się dziesiątki filmów na temat Kodi dzięki czemu każdy, kto tylko zechce możne zdobyć niezbędną wiedzę na temat Kodi od podstaw. Dzięki blogowi www.techmaniachd.pl można te wiedze jeszcze pogłębiać.
+
+Kodi is an open source, free media center. Add-ons that are available in MM or MMES are also free and available to anyone on the internet.
+Wizard Multimedia Master is not bringing directly any tv signal, movies, tv series, music or any other audio/visual content. All content available in my project is available through these add-ons.
+Multimedia Master has only one in mind - to help out common user to comfortably use Kodi. Everything comes pre-installed and composed to make the whole experience as friendly as possible.
+Multimedia Master is maintained on everyday basis. If add-ons are not working any more or anything changes they will be removed in the next update.
+On my YouTube channel TechManiacHD are plenty videos/tutorials how to install add-ons by yourself. Additionally on www.techmaniachd.pl you can find a lot of written tutorials how to solve problems or most common questions regarding using Kodi.</disclaimer>
+	<website>http://www.youtube.com/techmaniachd</website>
+    <platform>all</platform>
+  </extension>
+</addon>
